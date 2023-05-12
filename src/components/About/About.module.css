@@ -1,0 +1,65 @@
+.contenedor{
+    background-image: url(./yo.jpeg);
+    border-radius: 30px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 700px;
+    background-position-y: 210px;
+    background-size: 200px;
+    border: solid 3px white;
+    width: 1000px;
+    height: 500px;
+    margin-left: 180px;
+    margin-top: 50px;
+    animation:blur-in-expand 0.4s linear both} 
+    @keyframes blur-in-expand{0%{transform:scale(0);filter:blur(12px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}
+}
+
+.yo {
+    background-color: #0000008a;
+    text-align: center;
+    margin-top: 30px;
+    width: 680px;
+    height: 100px;
+    color: rgb(74, 240, 82);
+    margin-left: 20px;
+    font-family: "fuente3", Arial, Helvetica, sans-serif;
+    text-shadow:
+      0 0 12px #000000, /* sombra blanca */
+      0 0 16px rgb(0, 0, 0); /* sombra roja */
+      letter-spacing: 2px;
+}
+
+
+.info {
+    width: 800px;
+    height: 100px;
+    background-color: #0000008a;
+    margin-left: 20px;
+    color: rgb(74, 240, 82);
+    margin-left: 20px;
+    font-family: "fuente3", Arial, Helvetica, sans-serif;
+    text-shadow:
+      0 0 12px #000000, /* sombra blanca */
+      0 0 16px rgb(0, 0, 0); /* sombra roja */
+      letter-spacing: 2px;
+}
+
+.contenedor h2 {
+    color: rgb(255, 255, 255);
+    margin-left: 300px;
+    font-family: "fuente3", Arial, Helvetica, sans-serif;
+    text-shadow:
+      0 0 12px #000000, /* sombra blanca */
+      0 0 16px rgb(0, 0, 0); /* sombra roja */
+      letter-spacing: 2px;
+}
+
+.link {
+    color: rgb(74, 240, 82);
+    font-family: "fuente3", Arial, Helvetica, sans-serif;
+    text-shadow:
+      0 0 12px #000000, /* sombra blanca */
+      0 0 16px rgb(0, 0, 0); /* sombra roja */
+      letter-spacing: 2px;
+}

@@ -1,0 +1,191 @@
+
+/* CSS */
+.nav img {
+  background-image: url(./Rick-And-Morty-PNG-Images.png);
+}
+
+.nav {
+   
+    border-radius: 20px;
+    display: flex;
+    width: 90%;
+    height: 60px;
+    margin-top: 20px;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: 220px;
+  margin-left: 50px;
+  border: 3px solid rgb(233, 219, 219);
+  box-shadow: rgba(255, 255, 255, 0.842) 0 3px 9px 0;
+      color: rgb(255, 255, 255);
+      padding: 7px 20px;
+      
+}
+
+
+.link {
+    background-color: #13aa52;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 5px 10px;
+    text-decoration-line: none;
+    margin-left: 20px;
+    font-family: "fuente3";
+    box-shadow: rgba(255, 255, 255, 0.575) 0 3px 9px 0;
+      color: rgba(255, 255, 255, 0.534);
+      cursor: pointer;
+      border: 0;
+    
+    
+ 
+}
+
+
+
+@font-face {
+    font-family: "fuente1";
+    src: url(../fonts/gomarice_kaiju_monster.ttf);
+}
+
+
+.link:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+    box-shadow: rgba(0, 255, 13, 0.575) 0 3px 9px 0;
+      color: green;
+      cursor: pointer;
+      border: 0;
+}
+
+@media (min-width: 768px) {
+ .link {
+    width: 3%;
+    height: 20px;
+    margin-top: 15px;
+  }
+}
+
+.link1 {
+    background-color: #13aa52;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration-line: none;
+    padding: 5px 10px;
+    box-shadow: rgba(255, 255, 255, 0.575) 0 3px 9px 0;
+      color: rgba(255, 255, 255, 0.555);
+      cursor: pointer;
+      border: 0;
+ 
+}
+   
+
+.link1 {
+    text-decoration-line: none;
+    margin-left: 30px;
+    font-family: "fuente3";
+    
+    
+}
+
+
+.link1:hover {
+    box-shadow: rgba(145, 145, 145, 0.15) 0 3px 9px 0;
+    transform: translateY(-2px);
+    box-shadow: rgba(0, 255, 13, 0.575) 0 3px 9px 0;
+      color: green;
+      cursor: pointer;
+      border: 0;
+}
+
+@media (min-width: 768px) {
+ .link1 {
+    width: 3%;
+    height: 20px;
+    margin-top: 15px;
+  }
+}
+
+
+
+
+
+.link2 {
+    background-color: #13aa52;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration-line: none;
+    padding: 5px 20px;
+    box-shadow: rgba(255, 255, 255, 0.575) 0 3px 9px 0;
+      color: rgba(255, 255, 255, 0.486);
+      cursor: pointer;
+      border: 0;
+    
+    
+    
+    
+ 
+}
+   
+
+.link2 {
+    text-decoration-line: none;
+    margin-left: 30px;
+    font-family: "fuente3";
+    
+}
+@font-face {
+    font-family: "fuente1";
+    src: url(../fonts/gomarice_kaiju_monster.ttf);
+}
+
+.link2:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+    box-shadow: rgba(0, 255, 13, 0.575) 0 3px 9px 0;
+      color: green;
+      cursor: pointer;
+      border: 0;
+}
+
+@media (min-width: 768px) {
+ .link2 {
+    width: 3%;
+    height: 20px;
+    margin-top: 15px;
+  }
+}
+
+.link p {
+    font-size: 16px;
+    color: rgb(223, 223, 223);
+    margin-top: 3px;
+    margin-left: -1px;
+    
+}
+.link1 p {
+  color: rgb(223, 223, 223);
+    margin-top: 3px;
+    margin-left: -1px;
+}
+
+.link2 p {
+  color: rgb(223, 223, 223);
+    margin-top: 3px;
+    margin-left: -10px;
+}
+
+.nav hr {
+  margin-left: 30px;
+}
+
+
+
+
+    
+ 
+

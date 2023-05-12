@@ -1,0 +1,12 @@
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;  /*la imagen se queda quieta y no se repite*/
+  background-size: cover;
+  background-image: url('./fondo.jpg');
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

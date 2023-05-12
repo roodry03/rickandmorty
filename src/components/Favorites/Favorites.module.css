@@ -1,0 +1,47 @@
+
+.contenedor {
+  animation:blur-in-expand 0.4s linear both} 
+  @keyframes blur-in-expand{0%{transform:scale(0);filter:blur(12px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}
+}
+
+.select1 {
+    margin-left: 550px;
+    margin-top: 11px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 5px 10px;
+    text-decoration-line: none;
+    
+    font-family: "fuente3";
+    box-shadow: rgba(255, 255, 255, 0.575) 0 3px 9px 0;
+      color: rgba(0, 0, 0, 0.904);
+      cursor: pointer;
+      border: 0;
+}
+
+.select2 {
+    margin-left: 20px;
+    background-color: #ffffff;
+    border: 1px solid #fdfdfd;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 5px 10px;
+    text-decoration-line: none;
+    margin-left: 20px;
+    font-family: "fuente3";
+    box-shadow: rgba(255, 255, 255, 0.575) 0 3px 9px 0;
+      color: rgba(0, 0, 0, 0.904);
+      cursor: pointer;
+      border: 0;
+}
+
+.contenedor {
+    height: 50px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.466);
+    border: solid 3px white;
+    border-radius: 30px;
+    
+}
